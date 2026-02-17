@@ -1,77 +1,33 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Air Tech Solutions",
+  "domain": "https://www.airtechsolutions.com",
+  "email": "info@airtechsolutions.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "",
+    "href": "",
+    "aria": ""
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "",
       "address": {
-        "street": "9650 Main Street",
+        "street": "",
         "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "city_state": "",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "",
+          "latitude": ""
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "",
+        "href": ""
       },
-      "email": "info@mandtortho.com",
-      "hours": [
-        {
-          "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
-        },
-        {
-          "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
-        },
-        {
-          "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
-        },
-        {
-          "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
-        },
-        {
-          "day": "Friday",
-          "time": "8:00 am \t11:30 am"
-        }
-      ],
-      "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "Get Directions"
-      },
-      "special_note": ""
-    },
-    {
-      "title": "Tonawanda Office",
-      "address": {
-        "street": "1077 Delaware Rd",
-        "suite": "",
-        "city_state": "Tonawanda, NY 14223",
-        "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
-        }
-      },
-      "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
-      },
-      "email": "info@mandtortho.com",
+      "email": "info@airtechsolutions.com",
       "hours": [],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
+        "href": "",
         "label": "Get Directions"
       },
       "special_note": ""
@@ -92,24 +48,9 @@
     "type": "links",
     "theme": "dark",
     "content_alignment": "right",
-    "links": [
-      {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
-        "new_window": true
-      },
-      {
-        "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
-        "new_window": false
-      }
-    ],
+    "links": [],
     "announcement": {
-      "icon": "tooth-two-v2",
+      "icon": "phone",
       "label": "",
       "text": "",
       "mobile_text": "",
@@ -126,14 +67,14 @@
         "button": {
           "type": "nuxt",
           "style": "primary",
-          "label": "Schedule Consultation",
-          "aria_label": "Schedule a consultation",
+          "label": "Request a Quote",
+          "aria_label": "Request a quote",
           "href": "",
           "path": "/contact",
           "hash": "#form",
           "external": false,
-          "include_icon": true,
-          "icon": "tooth-two-v2",
+          "include_icon": false,
+          "icon": "phone",
           "color": "primary"
         }
       }
@@ -150,8 +91,8 @@
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
-        "icon": "youtube"
+        "href": "https://www.linkedin.com/company/air-tech-solutions-llc",
+        "icon": "linkedin"
       }
     ],
     "add_border": false
