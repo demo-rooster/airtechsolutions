@@ -16,10 +16,20 @@ export default {
   data: () => ({
     selectedForm: null
   }),
-  mounted () {
-    this.$nextTick(() => {
-      this.selectedForm = this.$store.state.forms.find(form => form.id.toString() === this.props.form[0].toString())
-    })
+  computed: {
+    storeForms () {
+      return this.$store.state.forms
+    }
+  },
+  watch: {
+    storeForms: {
+      immediate: true,
+      handler (forms) {
+        if (forms && forms.length) {
+          this.selectedForm = forms.find(form => form.id.toString() === this.props.form[0].toString())
+        }
+      }
+    }
   }
 }
 </script>

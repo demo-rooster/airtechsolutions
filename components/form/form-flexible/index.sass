@@ -98,9 +98,18 @@
 
     &--select
       position: relative
-      border: none
-      border-bottom: rem-calc(2) solid var(--primary)
+      border: rem-calc(1) solid $gray
+      border-radius: 0
+      background: $white
       cursor: pointer
+      padding-right: 2.5rem
+
+      &:focus
+        outline: transparent
+        border: rem-calc(2) solid blue
+
+      &:invalid
+        color: $gray
 
     &--textarea
       // border: rem-calc(2) solid var(--primary)
@@ -112,11 +121,30 @@
     z-index: 99
     color: red
 
+  &__select-wrapper
+    display: flex
+    flex-direction: column
+    width: 100%
+    gap: 1rem
+
+  &__select-container
+    position: relative
+
+    select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+
+  &__other-container
+    position: relative
+
   &__arrow
     position: absolute
-    top: .5rem
+    top: 50%
     right: 1rem
+    transform: translateY(-50%)
     z-index: 2
+    pointer-events: none
 
     &:after
       display: inline-block
@@ -387,6 +415,3 @@
     &-button
       padding-top: 1rem
 
-  // Hide the "Text" option (second checkbox) in contact form
-  .form-flexible__radio--alt .form-flexible__radio-group:nth-child(2)
-    display: none

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 200">
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+    <!-- Clipboard body -->
+    <rect x="20" y="25" width="140" height="165" rx="8"/>
+    <!-- Clipboard clip -->
+    <rect x="60" y="10" width="60" height="30" rx="6"/>
+    <!-- Shield inside clipboard -->
+    <path d="M90,65 L130,82 C130,82 133,130 90,160 C47,130 50,82 50,82 Z"/>
+    <!-- Checkmark inside shield -->
+    <polyline points="70,115 85,133 112,98"/>
+  </g>
+</svg>

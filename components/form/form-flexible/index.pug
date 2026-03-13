@@ -63,6 +63,46 @@
           )
           .form-flexible__error-message(v-html='field.error_message', v-show='errors.has(captchaLabel)')
 
+        // select //////////////////////////////////////////////
+        .form-flexible__select-wrapper(
+          v-else-if=`field.acf_fc_layout === 'select'`
+        )
+          .form-flexible__input-container.form-flexible__select-container
+            select.form-flexible__input.form-flexible__input--select(
+              :aria-invalid=`errors.has(field.label) ? 'true' : 'false'`,
+              :class=`{ 'form-flexible__input--error': errors.has(field.label) }`,
+              :id='field._id',
+              :name='field.label',
+              v-model='formModels[field._id].model',
+              v-validate='field.vValidate'
+            )
+              option(value='' disabled selected hidden) {{ field.placeholder || 'Select an option' }}
+              option(
+                v-for='(option, o) in field.options',
+                :key='`option-${i}-${o}`',
+                :value='option.label'
+              ) {{ option.label }}
+              option(v-if='field.other_support' value='Other') Other
+            label.form-flexible__label.form-flexible__label--active(
+              :for='field._id',
+              v-html='field.label && field.required ? `${field.label} *` : `${field.label}`'
+            )
+            .form-flexible__arrow
+            .form-flexible__error-message(v-html='field.error_message', v-show='errors.has(field.label)')
+          .form-flexible__input-container.form-flexible__other-container(
+            v-if="field.other_support && formModels[field._id].model === 'Other'"
+          )
+            input.form-flexible__input(
+              :id='field._id + "-other"',
+              :name='field.label + " (Other)"',
+              type='text',
+              placeholder='Please specify...',
+              v-model='formModels[field._id].otherValue'
+            )
+            label.form-flexible__label.form-flexible__label--active(
+              :for='field._id + "-other"'
+            ) Please specify
+
         // radio, checkbox //////////////////////////////////////////////
         fieldset.form-flexible__group.form-flexible__group--radio(
           v-if=`['radio', 'checkbox'].includes(field.acf_fc_layout)`

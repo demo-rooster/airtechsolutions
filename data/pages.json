@@ -3,12 +3,12 @@
     {
       "acf_fc_layout": "hero",
       "title": "AIR TECH SOLUTIONS",
-      "text": "",
+      "text": "Serving New England's Commercial Properties since 2012",
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -19,9 +19,9 @@
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/33367648_dentist_office_interior.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/33367648_dentist_office_interior.webp",
-        "alt": "Air Tech Solutions team providing exterior cleaning and air quality services",
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/home-hero-main.jpg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/home-hero-main.webp",
+        "alt": "Commercial property exterior showcasing Air Tech Solutions services",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -29,7 +29,10 @@
         "objectPosition": "center",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Homepage Hero",
+          "istock_id": "612309678"
+        }
       },
       "video": {
         "src": "",
@@ -40,7 +43,7 @@
     },
     {
       "acf_fc_layout": "block_text_fh",
-      "title": "About Air Tech Solutions",
+      "title": "The Air Tech Experience",
       "paragraphs": [
         {
           "text": "Air Tech Solutions is a locally owned New England company providing professional exterior cleaning, ventilation, and air quality services since 2012. We specialize in servicing commercial multi-family properties, including apartment buildings, condominiums, and townhome communities."
@@ -63,12 +66,12 @@
       "title": "Why Choose Us",
       "items": [
         {
-          "title": "Local Experience",
-          "icon": "people",
+          "title": "Proven Expertise",
+          "icon": "expertise",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/137068205_Real_estate_agent.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/137068205_Real_estate_agent.webp",
-            "alt": "",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1926807062_professional_expertise.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1926807062_professional_expertise.webp",
+            "alt": "Professional technician demonstrating proven expertise",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -76,9 +79,12 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Why Choose Us",
+              "istock_id": "1926807062"
+            }
           },
-          "text": "Serving New England property managers since 2012 with practical, reliable solutions for large and complex properties.",
+          "text": "Our skilled professionals ensure every project is completed with precision, efficiency, and long-term reliability.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -90,12 +96,12 @@
           }
         },
         {
-          "title": "Fully Equipped",
-          "icon": "gear-process-tooth",
+          "title": "Full Service Solutions",
+          "icon": "full",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/419958354_Large_Steel_Bank_Vault.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/419958354_Large_Steel_Bank_Vault.webp",
-            "alt": "",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/961462955_full_service_solutions.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/961462955_full_service_solutions.webp",
+            "alt": "Complete range of commercial property services",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -103,9 +109,12 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Why Choose Us",
+              "istock_id": "961462955"
+            }
           },
-          "text": "We own industrial soft wash systems, high-capacity compressors, boom lifts, and rope-access gear to complete jobs safely and efficiently.",
+          "text": "Our team delivers a full portfolio of services customized to meet the demands of commercial properties of all sizes.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -117,12 +126,12 @@
           }
         },
         {
-          "title": "Multi-Family Focus",
-          "icon": "location-tooth",
+          "title": "Trusted Since 2012",
+          "icon": "2012",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/563565159_Insurance_house_and_family_health_live_concept_The.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/563565159_Insurance_house_and_family_health_live_concept_The.webp",
-            "alt": "",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1665656983_trusted_service.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1665656983_trusted_service.webp",
+            "alt": "Trusted commercial property service since 2012",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -130,9 +139,12 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Why Choose Us",
+              "istock_id": "1665656983"
+            }
           },
-          "text": "Specialized services for apartments, condominiums, and townhome communities that reduce resident disruption and keep properties move-in ready.",
+          "text": "We provide professional exterior cleaning, ventilation, and air quality services for New England properties, delivering dependable solutions you can trust.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -145,11 +157,11 @@
         },
         {
           "title": "Insured & Compliant",
-          "icon": "safety-tooth",
+          "icon": "insured",
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/265958166_Group_of_medical_doctors_at_clinic_Unity_concept.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/265958166_Group_of_medical_doctors_at_clinic_Unity_concept.webp",
-            "alt": "",
+            "alt": "Fully insured and compliant commercial services team",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -159,7 +171,7 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Fully insured and committed to clear communication, regulatory compliance, and completing each job the right way on schedule.",
+          "text": "We maintain full insurance coverage and strict compliance with all applicable regulations to ensure safe and reliable service.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -199,10 +211,10 @@
     },
     {
       "acf_fc_layout": "block_masonary_grid",
-      "title": "Services Overview",
+      "title": "Expert Services for Your Property",
       "paragraphs": [
         {
-          "text": "From dryer vent cleaning to gutter clearing and air quality testing, we deliver targeted services that improve safety, efficiency, and building performance for multi-family and commercial properties."
+          "text": "From exterior window cleaning to HVAC maintenance and air quality testing, we deliver targeted services that improve safety, efficiency, and building performance for commercial properties."
         }
       ],
       "button": {
@@ -211,7 +223,7 @@
         "label": "Learn More",
         "aria_label": "Learn more about our services",
         "href": "",
-        "path": "/treatments",
+        "path": "/services",
         "hash": "",
         "external": false,
         "include_icon": false,
@@ -223,9 +235,9 @@
       "items": [
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1241848222_Mock_up_of_a_glass_jar_for_dog_or_cat_treats_with.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1241848222_Mock_up_of_a_glass_jar_for_dog_or_cat_treats_with.webp",
-            "alt": "Dryer vent and exhaust system servicing",
+            "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/exterior-window-cleaning.jpeg",
+            "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/exterior-window-cleaning.webp",
+            "alt": "Professional exterior window cleaning on commercial building",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -233,17 +245,20 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Services Grid",
+              "istock_id": "1510744999"
+            }
           },
-          "title": "Dryer Vent Cleaning",
-          "path": "/treatments",
-          "hash": "#dryer-vent-cleaning"
+          "title": "Exterior Window Cleaning",
+          "path": "/services",
+          "hash": "#commercial-exterior-window-cleaning"
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/111574857_Happy_family_playing_together.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/111574857_Happy_family_playing_together.webp",
-            "alt": "Bathroom exhaust and ventilation cleaning",
+            "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/hvac-cleaning.jpeg",
+            "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/hvac-cleaning.webp",
+            "alt": "HVAC system cleaning and maintenance",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -251,17 +266,20 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Services Grid",
+              "istock_id": "679981251"
+            }
           },
-          "title": "Bathroom Exhaust Cleaning + Repair",
-          "path": "/treatments",
-          "hash": "#bathroom-exhaust-cleaning-repair"
+          "title": "HVAC Cleaning",
+          "path": "/services",
+          "hash": "#commercial-hvac-cleaning"
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/624176181_Choose_the_right_insurance_Learn_more_about_insura.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/624176181_Choose_the_right_insurance_Learn_more_about_insura.webp",
-            "alt": "Gutter cleaning and downspout maintenance",
+            "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/air-quality-testing.jpeg",
+            "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/air-quality-testing.webp",
+            "alt": "Air quality testing equipment in commercial building",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -269,29 +287,35 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
-          },
-          "title": "Gutter Cleaning",
-          "path": "/treatments",
-          "hash": "#gutter-cleaning"
-        },
-        {
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.webp",
-            "alt": "Air quality testing and HVAC cleaning services",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Services Grid",
+              "istock_id": "1690463432"
+            }
           },
           "title": "Air Quality Testing",
-          "path": "/treatments",
-          "hash": "#air-quality-testing"
+          "path": "/services",
+          "hash": "#commercial-air-quality-testing"
+        },
+        {
+          "image": {
+            "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/sealing-service.jpeg",
+            "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/sealing-service.webp",
+            "alt": "Professional caulking and sealing services",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Services Grid",
+              "istock_id": "1653425043"
+            }
+          },
+          "title": "Sealing Services",
+          "path": "/services",
+          "hash": "#commercial-sealing-services"
         }
       ],
       "component_options": {
@@ -313,8 +337,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -336,7 +360,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/202645547_Portrait_of_dentist_standing_with_arms_crossed.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/202645547_Portrait_of_dentist_standing_with_arms_crossed.webp",
-        "alt": "Property managers discussing exterior maintenance plans",
+        "alt": "Air Tech Solutions team ready to serve your property",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -354,14 +378,14 @@
     {
       "seo": {
         "page_title": "Home - Air Tech Solutions",
-        "page_description": "Air Tech Solutions provides exterior cleaning, ventilation, and air quality services for multi-family and commercial properties across New England.",
-        "page_keywords": "exterior cleaning, dryer vent cleaning, gutter cleaning, air quality testing, multi-family services, New England",
+        "page_description": "Air Tech Solutions provides exterior cleaning, ventilation, and air quality services for commercial properties across New England since 2012.",
+        "page_keywords": "exterior cleaning, dryer vent cleaning, gutter cleaning, air quality testing, commercial services, New England, window cleaning, HVAC cleaning",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "Home - Air Tech Solutions",
-            "description": "Air Tech Solutions provides exterior cleaning, ventilation, and air quality services for multi-family and commercial properties across New England.",
-            "image": "https://ik.imagekit.io/rooster/tr:w-1920,h-1080,f-jpg,q-80/203779424_People_happiness_and_facial_expressions_concept_Pr.jpg"
+            "description": "Air Tech Solutions provides exterior cleaning, ventilation, and air quality services for commercial properties across New England since 2012.",
+            "image": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/about-hero.jpg"
           }
         }
       }
@@ -375,8 +399,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -387,9 +411,9 @@
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/239725802_group_of_professional_doctors.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/239725802_group_of_professional_doctors.webp",
-        "alt": "Exterior cleaning crew working on a multi-family building with lift equipment",
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/hero-image-home.jpg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/hero-image-home.webp",
+        "alt": "Air Tech Solutions team and commercial property services",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -397,7 +421,10 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "About Hero",
+          "istock_id": "540292744"
+        }
       },
       "video": {
         "src": "",
@@ -446,8 +473,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -469,7 +496,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/128058665_Astronaut_waving_3d_render.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/128058665_Astronaut_waving_3d_render.webp",
-        "alt": "Property managers discussing exterior maintenance plans",
+        "alt": "Air Tech Solutions team ready to assist",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -487,276 +514,29 @@
     {
       "seo": {
         "page_title": "About Us | Air Tech Solutions",
-        "page_description": "Learn about Air Tech Solutions, a New England exterior cleaning and air quality company serving multi-family properties with professional equipment and fully‑in",
-        "page_keywords": "Exterior cleaning, Dryer vent cleaning, Air Tech Solutions, New England, Multi-family property services",
+        "page_description": "Learn about Air Tech Solutions, a New England exterior cleaning and air quality company serving commercial properties with professional equipment since 2012.",
+        "page_keywords": "Exterior cleaning, Dryer vent cleaning, Air Tech Solutions, New England, Commercial property services",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "About Us | Air Tech Solutions",
-            "description": "Learn about Air Tech Solutions, a New England exterior cleaning and air quality company serving multi-family properties with professional equipment and fully‑in",
-            "image": "https://d25xczrsvvsqdg.cloudfront.net/mysmithortho-treatments-hero.jpg"
+            "description": "Learn about Air Tech Solutions, a New England exterior cleaning and air quality company serving commercial properties with professional equipment since 2012.",
+            "image": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/about-hero.jpg"
           }
         }
       }
     }
   ],
-  "Get Started": [
+  "Services": [
     {
       "acf_fc_layout": "hero",
-      "title": "Get Started",
+      "title": "Services",
       "text": "",
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
-        "href": "",
-        "path": "/contact",
-        "hash": "#form",
-        "external": false,
-        "include_icon": false,
-        "icon": "phone",
-        "color": "black"
-      },
-      "media_type": "image",
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/99326519_Professional_dentist_office.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/99326519_Professional_dentist_office.webp",
-        "alt": "Contact background image showing property exterior and team branding",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": null
-      },
-      "video": {
-        "src": "",
-        "webm": "",
-        "title": ""
-      },
-      "small": false
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "GET IN TOUCH",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "WANT A FREE QUOTE?"
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Tell us a bit about your property and how we can help!"
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/501534647_Happy_young_family_at_meeting_in_office_signs_docu.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/501534647_Happy_young_family_at_meeting_in_office_signs_docu.webp",
-        "alt": "Contact background image with Air Tech Solutions branding",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": null
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": true,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Contact Form",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "First Name, Last Name, Email"
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Residence Type: Apartments, Condos"
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Number of Units: 10 - 25, 25 - 50, 50 - 100, 100+"
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Message, Submit"
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/673674275_Phone_social_media_and_relax_with_a_woman_on_a_sof.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/673674275_Phone_social_media_and_relax_with_a_woman_on_a_sof.webp",
-        "alt": "Form illustration and contact area background",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": null
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "form",
-      "form": [
-        1025
-      ],
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "stack": false
-    },
-    {
-      "acf_fc_layout": "multi_use_banner",
-      "title": "Ready to get started?",
-      "content_block": "text_block",
-      "text": "",
-      "social_links": [],
-      "email": "",
-      "button": {
-        "type": "nuxt",
-        "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
-        "href": "",
-        "path": "/contact",
-        "hash": "#form",
-        "external": false,
-        "include_icon": false,
-        "icon": "",
-        "color": ""
-      },
-      "component_options": {
-        "hash": "",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "background_type": "has_background",
-      "background": "bg2",
-      "add_texture": false,
-      "linear_gradient": "",
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/439148846_Hispanic_teenager_girl_with_dental_braces_wearing.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/439148846_Hispanic_teenager_girl_with_dental_braces_wearing.webp",
-        "alt": "Property managers discussing exterior maintenance plans",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": null
-      },
-      "reversed": false,
-      "centered": true,
-      "large_title": true,
-      "text_color": "primary"
-    },
-    {
-      "acf_fc_layout": "map",
-      "title": "How to Reach Us",
-      "component_options": {
-        "hash": "",
-        "component_padding": "full",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "center_title": false,
-      "background": "bg1",
-      "linear_gradient": ""
-    },
-    {
-      "seo": {
-        "page_title": "Get Started | Air Tech Solutions",
-        "page_description": "Contact Air Tech Solutions for a free quote on exterior cleaning and ventilation services. Tell us about your property and submit the form to get started.",
-        "page_keywords": "free quote, contact, property services, Air Tech Solutions",
-        "additional_settings": false,
-        "social_meta": {
-          "og_meta": {
-            "title": "Get Started | Air Tech Solutions",
-            "description": "Contact Air Tech Solutions for a free quote on exterior cleaning and ventilation services. Tell us about your property and submit the form to get started.",
-            "image": "https://static.wixstatic.com/media/5bfb6f_c9a631e8e43443cb9d7ad97133d9d83d.jpg/v1/fill/w_21,h_1080,al_c,q_80,enc_avif,quality_auto/5bfb6f_c9a631e8e43443cb9d7ad97133d9d83d.jpg"
-          }
-        }
-      }
-    }
-  ],
-  "Treatments": [
-    {
-      "acf_fc_layout": "hero",
-      "title": "Treatments",
-      "text": "",
-      "button": {
-        "type": "nuxt",
-        "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -767,9 +547,9 @@
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.webp",
-        "alt": "Smiling patients of all ages at Lakeshore Orthodontics",
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/about-hero.jpg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/about-hero.webp",
+        "alt": "Professional commercial property services by Air Tech Solutions",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -778,7 +558,8 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "Treatments Hero"
+          "context_category": "Services Hero",
+          "istock_id": "639796281"
         }
       },
       "video": {
@@ -790,304 +571,29 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Dryer Vent Cleaning",
+      "title": "Commercial Window Cleaning",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Remove lint and debris from dryer exhaust systems using air agitation and vacuum capture to improve airflow, efficiency, and fire safety."
+          "text": "First impressions matter on commercial properties—especially at entrances, lobbies, leasing offices, and street-facing façades. Air Tech Solutions provides commercial window cleaning and commercial window washing for property managers who want consistent results, reliable scheduling, and clean glass that supports a professional look year-round. We serve commercial properties only (including commercial multi-family communities). We do not provide single-family residential window cleaning."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "We specialize in servicing commercial multi‑family properties, including apartment buildings, condominiums, and townhome communities."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/640774187_Generative_AI_portrait_of_confident_male_teacher_l.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/640774187_Generative_AI_portrait_of_confident_male_teacher_l.webp",
-        "alt": "Smiling family enjoying time together",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "General"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "dryer-vent-cleaning",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Bathroom Exhaust Cleaning + Repair",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Clean bathroom exhaust fans and ductwork to restore airflow, reduce moisture buildup, and perform minor repairs as needed."
+          "text": "Our commercial window cleaning service is designed to remove environmental buildup that can dull glass and make a property look neglected. We clean exterior glass with a process that prioritizes clarity and consistency, and we pay attention to the details that tenants and residents notice: frames, sills, and visible buildup around the edges of the window system."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "We specialize in servicing commercial multi‑family properties, including apartment buildings, condominiums, and townhome communities."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/641403541_Generative_AI_portrait_of_nice_schoolgirl_exchange.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/641403541_Generative_AI_portrait_of_nice_schoolgirl_exchange.webp",
-        "alt": "Dental Checkup with Braces",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "General"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "bathroom-exhaust-cleaning-repair",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Gutter Cleaning",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Clear gutters and downspouts of debris to restore proper drainage and help prevent water damage and overflow issues."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We specialize in servicing commercial multi‑family properties, including apartment buildings, condominiums, and townhome communities."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80/165319819_Two_stylish_smiling_teens_taking_selfie.jpg",
-        "webp": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-webp,q-80/165319819_Two_stylish_smiling_teens_taking_selfie.jpg",
-        "alt": "Two stylish smiling teens taking selfie with braces",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "General"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "gutter-cleaning",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Air Quality Testing",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Test indoor air for airborne particulates and contaminants to assess air quality and support informed maintenance decisions."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We specialize in servicing commercial multi‑family properties, including apartment buildings, condominiums, and townhome communities."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/116129137_abstarct_smoke_swirls.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/116129137_abstarct_smoke_swirls.webp",
-        "alt": "Digital X-ray equipment showing detailed orthodontic imaging",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "General"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "air-quality-testing",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Exterior Soft Washing",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Low-pressure exterior cleaning method that safely removes dirt, algae, and mildew without damaging siding, roofing, or exterior finishes."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We specialize in servicing commercial multi‑family properties, including apartment buildings, condominiums, and townhome communities."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/777737047_Industrial_building_with_large_solar_panel_install.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/777737047_Industrial_building_with_large_solar_panel_install.webp",
-        "alt": "Modern dentist office interior with advanced technology",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Exterior"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "exterior-soft-washing",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Exterior Window Washing",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Professional exterior window cleaning removes dirt and buildup from glass, frames, and sills to improve clarity and appearance."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We specialize in servicing commercial multi‑family properties, including apartment buildings, condominiums, and townhome communities."
+          "text": "Commercial properties often have challenging elevations, tight setbacks, or areas that are difficult to reach safely. Our team is equipped to plan access appropriately, including the use of boom lifts and rope access when needed."
         }
       ],
       "accordion": [],
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/564629323_Tier_III_carrier_neutral_data_center_Server_rooms.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/564629323_Tier_III_carrier_neutral_data_center_Server_rooms.webp",
-        "alt": "Smiling Woman with Clear Aligner",
+        "alt": "Commercial window cleaning in progress",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1096,7 +602,7 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "Exterior"
+          "context_category": "Services"
         }
       },
       "video": {
@@ -1105,63 +611,7 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "exterior-window-washing",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "HVAC Cleaning",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Remove dust and debris from HVAC systems and ductwork to improve airflow, efficiency, and indoor air circulation."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We specialize in servicing commercial multi‑family properties, including apartment buildings, condominiums, and townhome communities."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d25xczrsvvsqdg.cloudfront.net/default-itero-scanning.jpg",
-        "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-itero-scanning.webp",
-        "alt": "iTero digital scanner in use during orthodontic consultation",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "General"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "hvac-cleaning",
+        "hash": "commercial-window-cleaning",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
@@ -1182,24 +632,29 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Caulking + Sealing",
+      "title": "Commercial Exterior Window Cleaning",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Seal exterior joints and penetrations to reduce water intrusion, air leakage, and long-term building damage."
+          "text": "If you're searching specifically for commercial exterior window washing, you're in the right place. Exterior window washing is part of our commercial window cleaning scope. We match the method to your building's access and site conditions, whether you're managing a single office building or multiple buildings across a campus-style community."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "We specialize in servicing commercial multi‑family properties, including apartment buildings, condominiums, and townhome communities."
+          "text": "Commercial properties often have challenging elevations, tight setbacks, or areas that are difficult to reach safely. Our team is equipped to plan access appropriately, including the use of boom lifts and rope access when needed. That means fewer delays waiting on third-party equipment and a smoother experience for your on-site team."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "We service commercial properties within a 100-mile radius of Boston/West Newton, including Newton, Cambridge, Brookline, Watertown, Waltham, Somerville, and surrounding areas."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/275691085_Aerial_view_of_Lake_Merritt_and_downtown_Oakland_b.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/275691085_Aerial_view_of_Lake_Merritt_and_downtown_Oakland_b.webp",
-        "alt": "Beautiful young Asian woman smiling and holding orthodontic retainer",
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/exterior-window-cleaning.jpeg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/exterior-window-cleaning.webp",
+        "alt": "Exterior window cleaning on a multi-story commercial building",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1208,7 +663,8 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "General"
+          "context_category": "Services",
+          "istock_id": "1510744999"
         }
       },
       "video": {
@@ -1217,7 +673,498 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "caulking-sealing",
+        "hash": "commercial-exterior-window-cleaning",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Commercial Exterior Soft Washing",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "When commercial exteriors start showing algae, mildew, and environmental buildup, property managers have two competing priorities: get the building looking clean again—and avoid damaging finishes in the process. Air Tech Solutions provides commercial exterior soft washing as a low-pressure cleaning option designed to safely remove organic growth and grime from appropriate exterior surfaces. We serve commercial properties only, with a specialty in commercial multi-family communities."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Soft washing is a low-pressure method that uses professionally applied cleaning solutions to break down organic growth and surface contaminants, followed by a controlled rinse. This approach is often preferred when surfaces are sensitive or when higher pressure could cause unwanted effects."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Scope depends on your building materials and access, but commercial soft washing is commonly used on building façades where organic growth is visible, exterior common-area surfaces exposed to shade and moisture, and garage exteriors and other large exterior surfaces that collect buildup over time."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/777737047_Industrial_building_with_large_solar_panel_install.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/777737047_Industrial_building_with_large_solar_panel_install.webp",
+        "alt": "Exterior soft washing on commercial building",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-exterior-soft-washing",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Commercial Dryer Vent Cleaning",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Commercial multi-family properties depend on dryer exhaust systems that move air efficiently and safely. When lint and debris accumulate inside dryer exhaust ducts, airflow can drop, equipment can work harder, and risk can increase. Air Tech Solutions provides commercial dryer vent cleaning for property managers who want a structured approach, clear coordination, and a scope that matches how the building is actually vented. We serve commercial properties only."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Methods include exterior access cleaning (compressed air and hose-based equipment through exterior termination), interior access cleaning (high-pressure air sweeps and negative-air capture from within individual units), and central duct/shared shaft cleaning for buildings with centrally vented systems."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "For interior-access projects, coordination is everything. Air Tech Solutions can support scheduling workflows in coordination with property management, including resident/tenant communications and appointment scheduling when authorized."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/cleaning-dryer-lint-trap.jpeg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/cleaning-dryer-lint-trap.webp",
+        "alt": "Commercial dryer vent cleaning service",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-dryer-vent-cleaning",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Commercial Bathroom Exhaust Cleaning",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Bathrooms generate moisture—and exhaust systems are the first line of defense for moving that moisture out of the building. When bathroom exhaust fans and ductwork become clogged or underperform, humidity can linger, odors can persist, and moisture issues can escalate. Air Tech Solutions provides commercial bathroom exhaust cleaning to restore airflow, support moisture management, and keep exhaust systems functioning the way they're intended. We work with commercial properties only, including commercial multi-family communities."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Scope varies by building design, but a typical cleaning project focuses on the fan assembly and associated ductwork where debris buildup restricts airflow. Our goal is to remove accumulated dust and buildup that can impair performance over time."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Exhaust issues often show up first as complaints: lingering humidity, odors, or bathrooms that never feel like they \"dry out.\" A planned cleaning program helps property teams reduce reactive calls and supports a more consistent resident/tenant experience."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/cleaning-clogged-sink-drain.jpeg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/cleaning-clogged-sink-drain.webp",
+        "alt": "Bathroom exhaust cleaning and ventilation service",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-bathroom-exhaust-cleaning",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Commercial Gutter Cleaning",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Clogged gutters and downspouts can create outsized problems on commercial properties: overflow, staining, ice-related concerns, and water where you don't want it. Air Tech Solutions provides commercial gutter cleaning for property managers who want a consistent, documented approach to roof-edge drainage maintenance. We work with commercial properties only, including commercial multi-family communities."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Our gutter service focuses on clearing debris and obstructions from gutters and downspouts so water can drain properly. We also look for obvious issues that affect performance—visible damage, sections that appear unsafe to service, or drainage limitations that should be addressed by a repair scope."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Gutter cleaning isn't just a seasonal \"nice to have.\" It supports drainage performance during heavy rain and reduces the likelihood of overflow conditions that can stain exteriors or create slip hazards near entries and walkways."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/man-cleaning-roof-gutters.jpeg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/man-cleaning-roof-gutters.webp",
+        "alt": "Commercial gutter cleaning service",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-gutter-cleaning",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Commercial HVAC Cleaning",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "HVAC systems move air through buildings every day. When dust and debris accumulate in ductwork or HVAC components, it can contribute to performance issues and complicate indoor air quality management—especially on multi-unit commercial properties. Air Tech Solutions provides commercial HVAC cleaning for property managers who want a responsibly scoped service focused on airflow support, cleanliness, and practical coordination. We work with commercial properties only."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Because HVAC systems vary significantly by building and design, our scopes are built around what's accessible, what's needed, and what supports your maintenance goals. We use equipment and methods that support containment and capture, rather than simply moving debris from one place to another."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "HVAC cleaning should be defensible and properly scoped. The right approach starts with assessment and continues with a cleaning plan that targets the areas that matter."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/hvac-cleaning.jpeg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/hvac-cleaning.webp",
+        "alt": "HVAC system cleaning and maintenance service",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services",
+          "istock_id": "679981251"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-hvac-cleaning",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Commercial Air Quality Testing",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Indoor air questions can turn into operational headaches fast—especially when you manage multiple buildings, multiple stakeholders, and limited time to troubleshoot. Air Tech Solutions provides commercial air quality testing to help property managers and facility teams move from \"we think something's wrong\" to actionable data. We work with commercial properties only."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Air quality testing is most valuable when it supports a decision: confirming baseline conditions, investigating a complaint pattern, documenting conditions around a maintenance event, or prioritizing next steps for ventilation and cleaning."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Air quality testing is commonly requested after persistent odor or comfort complaints, dust concerns that don't resolve with normal cleaning, moisture events or suspected ventilation underperformance, or for \"before/after\" documentation for maintenance and cleaning projects."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/air-quality-testing.jpeg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/air-quality-testing.webp",
+        "alt": "Air quality testing in commercial property",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services",
+          "istock_id": "1690463432"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-air-quality-testing",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Commercial Caulking Services",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Small gaps can cause big problems on commercial properties. When exterior caulking fails at joints and transitions, water intrusion and air leakage become more likely—and the longer it's left unaddressed, the more expensive the downstream consequences can be. Air Tech Solutions provides commercial caulking services for property managers who want practical, well-coordinated exterior maintenance. We work with commercial properties only."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Caulking targets exterior joints, seams, and penetrations where sealant has cracked, separated, or deteriorated over time. A properly scoped caulking project helps reduce unwanted air movement and helps limit pathways for water intrusion at common weak points in the building envelope."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Commercial caulking is not just \"apply more sealant.\" Results depend on correct surface preparation, selecting the right material for the condition, and installing it correctly."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/275691085_Aerial_view_of_Lake_Merritt_and_downtown_Oakland_b.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/275691085_Aerial_view_of_Lake_Merritt_and_downtown_Oakland_b.webp",
+        "alt": "Commercial caulking and sealing services",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-caulking-services",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Commercial Sealing Services",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Commercial buildings expand, contract, and weather year after year. Over time, exterior joints and penetrations can open up, sealants can fail, and small pathways can allow air and water to move where they shouldn't. Air Tech Solutions provides commercial sealing services to help property managers protect building exteriors, reduce preventable water intrusion, and support more consistent building performance. We work with commercial properties only."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Commercial sealing services focus on exterior envelope details—especially joints, seams, and penetrations that become vulnerable over time. While caulking is one common sealing method, sealing services are often scoped more broadly to fit the building's conditions."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Property teams often call us when they see recurring signs such as localized staining, minor water intrusion indicators, drafts, or visibly deteriorated sealant conditions around penetrations and transitions. Addressing these issues early can reduce the chance that a small envelope weakness becomes a bigger repair project later."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/sealing-service.jpeg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/sealing-service.webp",
+        "alt": "Commercial sealing and waterproofing services",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services",
+          "istock_id": "1653425043"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-sealing-services",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
@@ -1246,8 +1193,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1269,7 +1216,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/600329009_Man_making_an_appointment_with_medical_staffs_at_r.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/600329009_Man_making_an_appointment_with_medical_staffs_at_r.webp",
-        "alt": "Property managers discussing exterior maintenance plans",
+        "alt": "Contact Air Tech Solutions for professional services",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1286,15 +1233,15 @@
     },
     {
       "seo": {
-        "page_title": "Treatments | AIR TECH SOLUTIONS",
-        "page_description": "Professional exterior cleaning, ventilation, and air quality services for commercial multi-family properties across New England.",
-        "page_keywords": "dryer vent cleaning, gutter cleaning, HVAC cleaning, air quality testing, exterior soft washing, window washing, caulking, sealing",
+        "page_title": "Services | Air Tech Solutions - Commercial Property Services Boston MA",
+        "page_description": "Professional commercial window cleaning, HVAC cleaning, air quality testing, soft washing, gutter cleaning, and sealing services for New England properties.",
+        "page_keywords": "commercial window cleaning, HVAC cleaning, air quality testing, soft washing, gutter cleaning, dryer vent cleaning, caulking, sealing, New England, Boston MA",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Treatments | AIR TECH SOLUTIONS",
-            "description": "Professional exterior cleaning, ventilation, and air quality services for commercial multi-family properties across New England.",
-            "image": "https://d25xczrsvvsqdg.cloudfront.net/holt-orthodontics-faq-hero.jpg"
+            "title": "Services | Air Tech Solutions - Commercial Property Services Boston MA",
+            "description": "Professional commercial window cleaning, HVAC cleaning, air quality testing, soft washing, gutter cleaning, and sealing services for New England properties.",
+            "image": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/about-hero.jpg"
           }
         }
       }
@@ -1308,8 +1255,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1322,7 +1269,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/652764051_Medical_staff_and_nurse_Receptionist_talking_to_co.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/652764051_Medical_staff_and_nurse_Receptionist_talking_to_co.webp",
-        "alt": "Contact AirTech Solutions reception desk with appointment book and phone",
+        "alt": "Contact Air Tech Solutions for a free estimate",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1343,7 +1290,7 @@
     },
     {
       "acf_fc_layout": "map",
-      "title": "How to Reach Us",
+      "title": "Get a Quote!",
       "component_options": {
         "hash": "",
         "component_padding": "half",
@@ -1357,7 +1304,7 @@
     {
       "acf_fc_layout": "form",
       "form": [
-        1025
+        1509
       ],
       "component_options": {
         "hash": "form",
@@ -1369,15 +1316,15 @@
     },
     {
       "seo": {
-        "page_title": "Contact AirTech Solutions | Home Services",
-        "page_description": "Contact AirTech Solutions for dryer vent cleaning, gutter washing, and exterior services. Request a free quote or schedule a service online.",
-        "page_keywords": "AirTech Solutions contact, dryer vent cleaning, gutter cleaning, exterior cleaning, free quote",
+        "page_title": "Contact Air Tech Solutions | Commercial Property Services",
+        "page_description": "Get a free estimate from Air Tech Solutions. Call 508.441.0081 or fill out our form for commercial exterior cleaning, HVAC, and air quality services.",
+        "page_keywords": "Air Tech Solutions contact, free estimate, commercial cleaning, exterior services, 508-441-0081",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Contact AirTech Solutions | Home Services",
-            "description": "Contact AirTech Solutions for dryer vent cleaning, gutter washing, and exterior services. Request a free quote or schedule a service online.",
-            "image": "https://static.wixstatic.com/media/5bfb6f_c9a631e8e43443cb9d7ad97133d9d83d.jpg/v1/fill/w_21,h_1080,al_c,q_80,enc_avif,quality_auto/5bfb6f_c9a631e8e43443cb9d7ad97133d9d83d.jpg"
+            "title": "Contact Air Tech Solutions | Commercial Property Services",
+            "description": "Get a free estimate from Air Tech Solutions. Call 508.441.0081 or fill out our form for commercial exterior cleaning, HVAC, and air quality services.",
+            "image": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/about-hero.jpg"
           }
         }
       }
@@ -1391,8 +1338,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1405,7 +1352,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/1269341883_Wooden_question_mark_leaning_against_wall_in_room.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/1269341883_Wooden_question_mark_leaning_against_wall_in_room.webp",
-        "alt": "Patient smiling with orthodontic braces in our Emeryville office",
+        "alt": "Frequently asked questions about Air Tech Solutions services",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1429,7 +1376,7 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Find answers to common questions about scheduling, requesting a free quote, and the exterior cleaning services we provide for multi-family and commercial properties."
+          "text": "Find answers to common questions about scheduling, requesting a free quote, and the exterior cleaning services we provide for commercial properties."
         }
       ],
       "accordion": [
@@ -1437,7 +1384,7 @@
           "header": "How do I request a free quote?",
           "paragraphs": [
             {
-              "text": "Request a free quote using our contact form. Tell us the property type, number of units, and a brief description of the work needed, and we’ll follow up to schedule an inspection or provide an estimate."
+              "text": "Request a free quote using our contact form. Tell us the property type, number of units, and a brief description of the work needed, and we'll follow up to schedule an inspection or provide an estimate."
             }
           ],
           "has_media": false,
@@ -1445,7 +1392,7 @@
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/354202814_insurance_manage_protection_risk_finance_domino_ef.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/354202814_insurance_manage_protection_risk_finance_domino_ef.webp",
-            "alt": "Happy Family Portrait",
+            "alt": "Requesting a quote from Air Tech Solutions",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1464,7 +1411,7 @@
           "header": "What information should I include for an accurate quote?",
           "paragraphs": [
             {
-              "text": "Provide your name and email, property type (apartments or condos), number of units, and any notes about access, building height, or recurring service needs. The more detail you give, the faster and more accurate our estimate will be."
+              "text": "Provide your name and email, property type, number of units, and any notes about access, building height, or recurring service needs. The more detail you give, the faster and more accurate our estimate will be."
             }
           ],
           "has_media": false,
@@ -1472,7 +1419,7 @@
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.jpg",
             "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.webp",
-            "alt": "Couple Enjoying Time Together",
+            "alt": "Information needed for an accurate service quote",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1488,10 +1435,10 @@
           }
         },
         {
-          "header": "Which services do you offer for multi-family and commercial properties?",
+          "header": "Which services do you offer for commercial properties?",
           "paragraphs": [
             {
-              "text": "We handle dryer vent cleaning, bathroom exhaust cleaning and minor repairs, gutter cleaning, exterior soft washing, exterior window washing, HVAC cleaning, air quality testing, and caulking and sealing for building exteriors."
+              "text": "We offer commercial window cleaning, exterior window cleaning, exterior soft washing, dryer vent cleaning, bathroom exhaust cleaning, gutter cleaning, HVAC cleaning, air quality testing, caulking services, and sealing services for commercial properties of all sizes."
             }
           ],
           "has_media": false,
@@ -1499,7 +1446,7 @@
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.jpg",
             "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.webp",
-            "alt": "Collaborative Team Spirit Moment",
+            "alt": "Full range of Air Tech Solutions services",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1526,7 +1473,7 @@
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1082455148_Aerial_view_of_large_sustainable_electrical_power.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1082455148_Aerial_view_of_large_sustainable_electrical_power.webp",
-            "alt": "Smiling Man Working at Desk",
+            "alt": "Industrial equipment used by Air Tech Solutions",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1545,7 +1492,7 @@
           "header": "What is your service area and how do you minimize disruption?",
           "paragraphs": [
             {
-              "text": "We serve properties across New England and work closely with property managers to coordinate timing, access, and communication. Our teams plan work to minimize disruption to residents and operations."
+              "text": "We serve properties within a 100-mile radius of West Newton, MA, covering all of New England. We work closely with property managers to coordinate timing, access, and communication to minimize disruption to residents and operations."
             }
           ],
           "has_media": false,
@@ -1553,7 +1500,7 @@
           "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/265970940_Dentist_female_looking_at_the_x_ray_in_her_office.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/265970940_Dentist_female_looking_at_the_x_ray_in_her_office.webp",
-            "alt": "Mother and Daughter Smiling Together",
+            "alt": "Air Tech Solutions service area across New England",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1580,7 +1527,7 @@
           "image": {
             "src": "https://d25xczrsvvsqdg.cloudfront.net/andersonbracesmn-contact-hero.jpg",
             "webp": "https://d25xczrsvvsqdg.cloudfront.net/andersonbracesmn-contact-hero.webp",
-            "alt": "Patient smiling with orthodontic braces in our Emeryville office",
+            "alt": "Pricing and contract information",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1613,8 +1560,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Schedule Consultation",
-        "aria_label": "Schedule a consultation",
+        "label": "FREE ESTIMATE",
+        "aria_label": "Get a free estimate",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1636,7 +1583,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.webp",
-        "alt": "Property managers discussing exterior maintenance plans",
+        "alt": "Get a free estimate from Air Tech Solutions",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1654,14 +1601,14 @@
     {
       "seo": {
         "page_title": "FAQ | Air Tech Solutions",
-        "page_description": "Answers to scheduling, quoting, and service questions for Air Tech Solutions, New England's commercial exterior cleaning specialists.",
-        "page_keywords": "exterior cleaning, dryer vent cleaning, gutter cleaning, quotes, Air Tech Solutions, New England",
+        "page_description": "Answers to scheduling, quoting, and service questions for Air Tech Solutions, New England's commercial exterior cleaning and property services specialists.",
+        "page_keywords": "exterior cleaning, dryer vent cleaning, gutter cleaning, quotes, Air Tech Solutions, New England, commercial services",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "FAQ | Air Tech Solutions",
-            "description": "Answers to scheduling, quoting, and service questions for Air Tech Solutions, New England's commercial exterior cleaning specialists.",
-            "image": "https://d25xczrsvvsqdg.cloudfront.net/andersonbracesmn-contact-hero.jpg"
+            "description": "Answers to scheduling, quoting, and service questions for Air Tech Solutions, New England's commercial exterior cleaning and property services specialists.",
+            "image": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/about-hero.jpg"
           }
         }
       }

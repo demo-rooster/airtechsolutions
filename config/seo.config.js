@@ -18,6 +18,26 @@ export const siteMap = {
         {
           url: '/',
           priority: 1
+        },
+        {
+          url: '/about',
+          priority: 0.9
+        },
+        {
+          url: '/services',
+          priority: 0.9
+        },
+        {
+          url: '/contact',
+          priority: 0.9
+        },
+        {
+          url: '/faq',
+          priority: 0.8
+        },
+        {
+          url: '/blog',
+          priority: 0.8
         }
       ]
     },

@@ -37,25 +37,41 @@ export default {
     c () { return this.a + this.b },
     captchaLabel () { return `What is ${this.a} + ${this.b}? *` }
   },
-  mounted () {
-    this.formRecipient = globalData.email
-    this.formBCC = this.selectedForm.bcc
-    this.formSubject = `${globalData.company_name} Contact Form`
-    this.initiateFields()
+  watch: {
+    selectedForm: {
+      immediate: true,
+      handler (val) {
+        if (val && val.input_fields) {
+          this.formRecipient = globalData.email
+          this.formBCC = val.bcc
+          this.formSubject = `${globalData.company_name} Contact Form`
+          this.initiateFields()
+        }
+      }
+    }
   },
   methods: {
     initiateFields () {
-      // Creates input fields
-      this.inputFields = this.selectedForm.input_fields
+      // Creates input fields (deep clone to avoid mutating store state)
+      const fields = this.selectedForm.input_fields
+      const fieldsArray = Array.isArray(fields) ? fields : Object.values(fields)
+      this.inputFields = JSON.parse(JSON.stringify(fieldsArray))
       this.inputFields.forEach((field, i) => {
         // Assigns unique ID
         const fieldID = `field-${i.toString().padStart(5, '0')}`
         field._id = fieldID
         // Assigns unique ID to each sub input field (for radio or checkbox)
         if (field.inputs) {
+          if (!Array.isArray(field.inputs)) {
+            field.inputs = Object.values(field.inputs)
+          }
           field.inputs.forEach((input, e) => {
             input._id = 'subfield-' + i.toString().padStart(5, '0') + '-' + e.toString().padStart(5, '0')
           })
+        }
+        // Normalize select options from API
+        if (field.options && !Array.isArray(field.options)) {
+          field.options = Object.values(field.options)
         }
 
         // Sets validation rules
@@ -71,11 +87,15 @@ export default {
         }
 
         // Creates model
-        this.formModels[fieldID] = {
+        const model = {
           _id: fieldID,
           label: field.label,
           model: field.acf_fc_layout === 'checkbox' ? [] : null
         }
+        if (field.acf_fc_layout === 'select' && field.other_support) {
+          model.otherValue = null
+        }
+        this.$set(this.formModels, fieldID, model)
 
         // Sets default inputs (for radio and checkbox)
         if (field.inputs) {
@@ -150,7 +170,7 @@ export default {
                 </tr>
                 <tr>
                   <td style="width: 100%; font-size: 20px;">
-                    <h5 style="margin-top: 0; padding-top: 0; font-weight: 300; border-bottom: 1px solid #3f3f3f; margin-right: 10%;">${Array.isArray(formModel.model) ? formModel.model.join(', ') : formModel.model}</h5></td>
+                    <h5 style="margin-top: 0; padding-top: 0; font-weight: 300; border-bottom: 1px solid #3f3f3f; margin-right: 10%;">${Array.isArray(formModel.model) ? formModel.model.join(', ') : (formModel.model === 'Other' && formModel.otherValue ? 'Other: ' + formModel.otherValue : formModel.model)}</h5></td>
                 </tr>
               </table>
             `)

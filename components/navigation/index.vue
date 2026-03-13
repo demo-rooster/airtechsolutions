@@ -34,8 +34,7 @@ export default {
       return router.filter(link => link.navigation || link.mobile)
     },
     logoName () {
-      const isFloating = !this.isScrolling && this.props?.nav?.floating && !this.$store.state.noFloatTop && !this.$route.path.includes('/blog') && !this.$route.path.includes('/privacy-policy') && !this.$route.path.includes('/404') && !this.$route.path.includes('/accessibility')
-      return isFloating ? 'logo-white' : 'logo'
+      return 'logo-white'
     },
     mobileLogoName () {
       // For mobile drawer, always use the regular logo since the drawer has a white/light background

@@ -32,7 +32,7 @@ export default {
           lat: Number(this.props.address.coordinates.latitude),
           lng: Number(this.props.address.coordinates.longitude)
         },
-        zoom: 15,
+        zoom: 9,
         streetViewControl: false,
         fullscreenControl: false,
         mapId: '876c2d412dd92ae2'

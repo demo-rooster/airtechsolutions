@@ -4,68 +4,68 @@
       {
         "label": "primary",
         "color": {
-          "red": 15,
-          "green": 76,
-          "blue": 133,
+          "red": 0,
+          "green": 57,
+          "blue": 112,
           "alpha": 1
         },
-        "hex": "#0F4C85",
+        "hex": "#003970",
         "accessibility": {
-          "luminance": 0.07,
-          "luminancePercent": "7%",
+          "luminance": 0.04,
+          "luminancePercent": "4%",
           "recommendedTextColor": "#ffffff",
-          "contrastRatio": 8.78,
+          "contrastRatio": 12.2,
           "wcagRating": "AAA"
         }
       },
       {
         "label": "secondary",
         "color": {
-          "red": 11,
-          "green": 57,
-          "blue": 99,
+          "red": 111,
+          "green": 129,
+          "blue": 160,
           "alpha": 1
         },
-        "hex": "#0b3963",
+        "hex": "#6f81a0",
         "accessibility": {
-          "luminance": 0.04,
-          "luminancePercent": "4%",
+          "luminance": 0.22,
+          "luminancePercent": "22%",
           "recommendedTextColor": "#ffffff",
-          "contrastRatio": 11.8,
-          "wcagRating": "AAA"
+          "contrastRatio": 4.1,
+          "wcagRating": "AA"
         }
       },
       {
         "label": "accent",
         "color": {
-          "red": 125,
-          "green": 148,
-          "blue": 172,
+          "red": 173,
+          "green": 200,
+          "blue": 232,
           "alpha": 1
         },
-        "hex": "#7d94ac",
+        "hex": "#adc8e8",
         "accessibility": {
-          "luminance": 0.29,
-          "luminancePercent": "29%",
+          "luminance": 0.56,
+          "luminancePercent": "56%",
           "recommendedTextColor": "#000000",
-          "contrastRatio": 6.7,
+          "contrastRatio": 1.8,
           "wcagRating": "AA"
         }
       },
       {
         "label": "text",
         "color": {
-          "red": 31,
-          "green": 63,
-          "blue": 115,
+          "red": 0,
+          "green": 57,
+          "blue": 112,
           "alpha": 1
         },
-        "hex": "#1F3F73",
+        "hex": "#003970",
         "accessibility": {
-          "luminance": 0.05,
-          "luminancePercent": "5%",
+          "luminance": 0.04,
+          "luminancePercent": "4%",
           "recommendedTextColor": "#ffffff",
-          "contrastRatio": 10.41,
+          "contrastRatio": 12.2,
           "wcagRating": "AAA"
         }
       },
@@ -77,7 +77,7 @@
           "blue": 255,
           "alpha": 1
         },
-        "hex": "#FFFFFF",
+        "hex": "#ffffff",
         "accessibility": {
           "luminance": 1,
           "luminancePercent": "100%",
@@ -89,12 +89,12 @@
       {
         "label": "bg-2",
         "color": {
-          "red": 245,
+          "red": 240,
           "green": 245,
-          "blue": 245,
+          "blue": 250,
           "alpha": 1
         },
-        "hex": "#f5f5f5",
+        "hex": "#f0f5fa",
         "accessibility": {
           "luminance": 0.91,
           "luminancePercent": "91%",
@@ -123,17 +123,17 @@
       {
         "label": "topbar-dark",
         "color": {
-          "red": 15,
-          "green": 76,
-          "blue": 133,
+          "red": 0,
+          "green": 57,
+          "blue": 112,
           "alpha": 1
         },
-        "hex": "#0F4C85",
+        "hex": "#003970",
         "accessibility": {
-          "luminance": 0.07,
-          "luminancePercent": "7%",
+          "luminance": 0.04,
+          "luminancePercent": "4%",
           "recommendedTextColor": "#ffffff",
-          "contrastRatio": 8.78,
+          "contrastRatio": 12.2,
           "wcagRating": "AAA"
         }
       }
@@ -141,76 +141,46 @@
     "typography": [
       {
         "label": "font",
-        "font": "'HelveticaNeueW01-45Ligh', helvetica, arial, sans-serif"
+        "font": "'Open Sans', helvetica, arial, sans-serif"
       },
       {
         "label": "font-title",
-        "font": "'Raleway', sans-serif"
+        "font": "'Archivo', sans-serif"
       }
     ],
-    "logo_url": "https://static.wixstatic.com/media/4a046e_3ab0b243e20440fa846221413221e2c1~mv2.jpg/v1/fill/w_117,h_85,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4a046e_3ab0b243e20440fa846221413221e2c1~mv2.jpg",
+    "logo_url": "",
     "logo_config": {
-      "type": "url",
+      "type": "svg",
       "variant": "dark",
-      "url": "https://static.wixstatic.com/media/4a046e_3ab0b243e20440fa846221413221e2c1~mv2.jpg/v1/fill/w_117,h_85,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4a046e_3ab0b243e20440fa846221413221e2c1~mv2.jpg"
+      "url": ""
     },
     "logo_colors": {
       "colors": [
         {
+          "hex": "#003970",
+          "luminosity_percent": 4,
+          "count": 200
+        },
+        {
+          "hex": "#adc8e8",
+          "luminosity_percent": 56,
+          "count": 100
+        },
+        {
+          "hex": "#6f81a0",
+          "luminosity_percent": 22,
+          "count": 80
+        },
+        {
           "hex": "#ffffff",
           "luminosity_percent": 100,
-          "count": 418
-        },
-        {
-          "hex": "#fffffe",
-          "luminosity_percent": 100,
-          "count": 18
-        },
-        {
-          "hex": "#fefefe",
-          "luminosity_percent": 99,
-          "count": 14
-        },
-        {
-          "hex": "#fffffd",
-          "luminosity_percent": 100,
-          "count": 11
-        },
-        {
-          "hex": "#1e3f72",
-          "luminosity_percent": 5,
-          "count": 11
-        },
-        {
-          "hex": "#7d94ac",
-          "luminosity_percent": 29,
-          "count": 10
-        },
-        {
-          "hex": "#0e3167",
-          "luminosity_percent": 3,
-          "count": 10
-        },
-        {
-          "hex": "#fdfdfd",
-          "luminosity_percent": 98,
-          "count": 8
-        },
-        {
-          "hex": "#214275",
-          "luminosity_percent": 6,
-          "count": 8
-        },
-        {
-          "hex": "#fdfdfe",
-          "luminosity_percent": 98,
-          "count": 8
+          "count": 50
         }
       ],
-      "dominant_color": "#ffffff",
-      "avg_luminosity": 93.2,
-      "is_light": true
+      "dominant_color": "#003970",
+      "avg_luminosity": 20.5,
+      "is_light": false
     },
-    "favicon_url": "https://static.wixstatic.com/media/4a046e_7c65c3a1263f4ba1abf6eb161a313b56%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/4a046e_7c65c3a1263f4ba1abf6eb161a313b56%7Emv2.png"
+    "favicon_url": ""
   }
 }

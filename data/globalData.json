@@ -4,33 +4,54 @@
   "domain": "https://www.airtechsolutions.com",
   "email": "info@airtechsolutions.com",
   "phone": {
-    "number": "",
-    "href": "",
-    "aria": ""
+    "number": "508.441.0081",
+    "href": "tel:5084410081",
+    "aria": "Call Air Tech Solutions at 508-441-0081"
   },
   "location": [
     {
-      "title": "",
+      "title": "Service Area",
       "address": {
         "street": "",
         "suite": "",
-        "city_state": "",
+        "city_state": "West Newton, MA",
         "coordinates": {
-          "longitude": "",
-          "latitude": ""
+          "longitude": "-71.2290",
+          "latitude": "42.3501"
         }
       },
       "phone": {
-        "number": "",
-        "href": ""
+        "number": "508.441.0081",
+        "href": "tel:5084410081"
       },
       "email": "info@airtechsolutions.com",
-      "hours": [],
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "7:30AM - 6:00PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "7:30AM - 6:00PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "7:30AM - 6:00PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "7:30AM - 6:00PM"
+        },
+        {
+          "day": "Friday",
+          "time": "7:30AM - 6:00PM"
+        }
+      ],
       "directions_link": {
         "href": "",
-        "label": "Get Directions"
+        "label": "View Service Area"
       },
-      "special_note": ""
+      "special_note": "Serving a 100-mile radius of West Newton, MA"
     }
   ],
   "typography": [
@@ -65,24 +86,39 @@
     "buttons": [
       {
         "button": {
+          "type": "external",
+          "style": "secondary",
+          "label": "Call or Text",
+          "aria_label": "Call or text Air Tech Solutions at 508-441-0081",
+          "href": "tel:5084410081",
+          "path": "",
+          "hash": "",
+          "external": true,
+          "include_icon": true,
+          "icon": "phone",
+          "color": "primary"
+        }
+      },
+      {
+        "button": {
           "type": "nuxt",
           "style": "primary",
-          "label": "Request a Quote",
-          "aria_label": "Request a quote",
+          "label": "FREE ESTIMATE",
+          "aria_label": "Get a free estimate",
           "href": "",
           "path": "/contact",
           "hash": "#form",
           "external": false,
           "include_icon": false,
-          "icon": "phone",
+          "icon": "",
           "color": "primary"
         }
       }
     ],
-    "floating": false
+    "floating": true
   },
   "primary_cta": {
-    "label": "Schedule Consultation",
+    "label": "FREE ESTIMATE",
     "path": "/contact",
     "hash": "#form",
     "external": false,

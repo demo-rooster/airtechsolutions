@@ -50,6 +50,8 @@
     background: var(--topbar-dark)
     .navigation__link
       color: $white
+      &:after
+        background: $white
     .navigation__caret
       stroke: $white
       svg path
@@ -319,6 +321,7 @@
   &__cta-container
     width: 100%
     height: 100%
+    white-space: nowrap
 
   &__hamburger
     @include focus

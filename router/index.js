@@ -8,57 +8,59 @@ const router = [
   {
     name: 'About',
     path: '/about',
-    navigation: true,
-    children: [
-      {
-        name: 'Meet Dr. Tyska',
-        path: '#meet-dr-tyska'
-      },
-      {
-        name: 'Meet Dr. Alexander',
-        path: '#meet-dr-alexander'
-      }
-    ]
-  },
-  {
-    name: 'Get Started',
-    path: '/get-started',
     navigation: true
   },
   {
-    name: 'Treatments',
-    path: '/treatments',
+    name: 'Services',
+    path: '/services',
     navigation: true,
     children: [
       {
-        name: 'Early/interceptive treatment for children',
-        path: '#early-interceptive-treatment'
+        name: 'Commercial Window Cleaning',
+        path: '#commercial-window-cleaning'
       },
       {
-        name: 'Adult orthodontic options — It\'s never too late',
-        path: '#adult-orthodontic-options'
+        name: 'Commercial Exterior Window Cleaning',
+        path: '#commercial-exterior-window-cleaning'
       },
       {
-        name: 'Traditional (metal) and ceramic braces',
-        path: '#braces'
+        name: 'Commercial Exterior Soft Washing',
+        path: '#commercial-exterior-soft-washing'
       },
       {
-        name: 'Invisalign<sup>®</sup> clear aligners',
-        path: '#invisalign'
+        name: 'Commercial Dryer Vent Cleaning',
+        path: '#commercial-dryer-vent-cleaning'
       },
       {
-        name: 'Surgical orthodontics (jaw surgery)',
-        path: '#orthognathic-surgery'
+        name: 'Commercial Bathroom Exhaust Cleaning',
+        path: '#commercial-bathroom-exhaust-cleaning'
       },
       {
-        name: 'Retainers and maintaining results',
-        path: '#retainers'
+        name: 'Commercial Gutter Cleaning',
+        path: '#commercial-gutter-cleaning'
       },
       {
-        name: 'Advanced technology — 3D scanning and imaging',
-        path: '#advanced-technology'
+        name: 'Commercial HVAC Cleaning',
+        path: '#commercial-hvac-cleaning'
+      },
+      {
+        name: 'Commercial Air Quality Testing',
+        path: '#commercial-air-quality-testing'
+      },
+      {
+        name: 'Commercial Caulking Services',
+        path: '#commercial-caulking-services'
+      },
+      {
+        name: 'Commercial Sealing Services',
+        path: '#commercial-sealing-services'
       }
     ]
+  },
+  {
+    name: 'Blog',
+    path: '/blog',
+    navigation: true
   },
   {
     name: 'Contact',
