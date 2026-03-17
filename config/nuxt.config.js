@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { api } from '../resources/api'
-import { setData } from '../resources/utils'
+import { setData, setJSONData } from '../resources/utils'
 import { siteHead } from './head.config.js'
 import buildConfig from './build.config.js'
 import { siteMap, setRobots } from './seo.config'
@@ -31,7 +31,7 @@ console.log('Theme typography:', typography)
 console.log('Google Fonts to load:', googleFonts)
 
 export default async () => {
-  const meta = await setData('home')
+  const meta = setJSONData('home')
   return {
     server: {
       port: 8080,
@@ -42,21 +42,25 @@ export default async () => {
       async routes () {
         const dyRoutes = []
 
-        await axios.get(`${api}/wp/v2/posts?per_page=100`).then(async (response) => {
-          const dataPages = response.headers['x-wp-totalpages']
-          let postsArray = response.data
-          dyRoutes.push('/blog/page/1')
-          for (let i = 2; i <= dataPages; i++) {
-            const nextPage = await axios.get(
-              `${api}/wp/v2/posts?per_page=100&page=${i}`
-            )
-            postsArray = [...postsArray, ...nextPage.data]
-            dyRoutes.push('/blog/page/' + i)
-          }
-          return postsArray.map((post) => {
-            dyRoutes.push('/blog/' + post.slug)
+        try {
+          await axios.get(`${api}/wp/v2/posts?per_page=100`).then(async (response) => {
+            const dataPages = response.headers['x-wp-totalpages']
+            let postsArray = response.data
+            dyRoutes.push('/blog/page/1')
+            for (let i = 2; i <= dataPages; i++) {
+              const nextPage = await axios.get(
+                `${api}/wp/v2/posts?per_page=100&page=${i}`
+              )
+              postsArray = [...postsArray, ...nextPage.data]
+              dyRoutes.push('/blog/page/' + i)
+            }
+            return postsArray.map((post) => {
+              dyRoutes.push('/blog/' + post.slug)
+            })
           })
-        })
+        } catch (e) {
+          console.error('Could not fetch blog posts for route generation:', e.message)
+        }
 
         return dyRoutes
       }
