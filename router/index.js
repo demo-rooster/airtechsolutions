@@ -16,43 +16,55 @@ const router = [
     navigation: true,
     children: [
       {
-        name: 'Commercial Window Cleaning',
+        name: 'Window Cleaning',
         path: '#commercial-window-cleaning'
       },
       {
-        name: 'Commercial Exterior Window Cleaning',
+        name: 'Exterior Window Cleaning',
         path: '#commercial-exterior-window-cleaning'
       },
       {
-        name: 'Commercial Exterior Soft Washing',
+        name: 'Office Exterior Cleaning',
+        path: '#commercial-office-exterior-cleaning'
+      },
+      {
+        name: 'Professional Exterior Cleaning',
+        path: '#professional-commercial-exterior-cleaning'
+      },
+      {
+        name: 'Exterior Soft Washing',
         path: '#commercial-exterior-soft-washing'
       },
       {
-        name: 'Commercial Dryer Vent Cleaning',
+        name: 'Dryer Vent Cleaning',
         path: '#commercial-dryer-vent-cleaning'
       },
       {
-        name: 'Commercial Bathroom Exhaust Cleaning',
+        name: 'Bathroom Exhaust Cleaning',
         path: '#commercial-bathroom-exhaust-cleaning'
       },
       {
-        name: 'Commercial Gutter Cleaning',
+        name: 'Bathroom Exhaust Repair',
+        path: '#commercial-bathroom-exhaust-repair'
+      },
+      {
+        name: 'Gutter Cleaning',
         path: '#commercial-gutter-cleaning'
       },
       {
-        name: 'Commercial HVAC Cleaning',
+        name: 'HVAC Cleaning',
         path: '#commercial-hvac-cleaning'
       },
       {
-        name: 'Commercial Air Quality Testing',
+        name: 'Air Quality Testing',
         path: '#commercial-air-quality-testing'
       },
       {
-        name: 'Commercial Caulking Services',
+        name: 'Caulking Services',
         path: '#commercial-caulking-services'
       },
       {
-        name: 'Commercial Sealing Services',
+        name: 'Sealing Services',
         path: '#commercial-sealing-services'
       }
     ]

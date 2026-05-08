@@ -3,7 +3,7 @@
     {
       "acf_fc_layout": "hero",
       "title": "AIR TECH SOLUTIONS",
-      "text": "Serving New England's Commercial Properties since 2012",
+      "text": "Serving New England's Commercial<br>Properties since 2012",
       "button": {
         "type": "nuxt",
         "style": "primary",
@@ -571,7 +571,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Window Cleaning",
+      "title": "Window Cleaning",
       "paragraphs": [
         {
           "has_heading": false,
@@ -632,7 +632,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Exterior Window Cleaning",
+      "title": "Exterior Window Cleaning",
       "paragraphs": [
         {
           "has_heading": false,
@@ -694,7 +694,129 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Exterior Soft Washing",
+      "title": "Office Exterior Cleaning",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Office buildings are judged from the curb. Dirty entry glass, stained façade sections, and buildup around entrances can undermine tenant confidence and make an otherwise well-managed property look neglected. Air Tech Solutions provides commercial office exterior cleaning for property managers and facilities teams who want a reliable, professional partner focused on commercial properties only."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Our office exterior cleaning programs are built around the areas that matter most: primary entrances, high-visibility façade zones, exterior glass at lobbies and common areas, and exterior surfaces that collect organic growth or environmental grime over time. We tailor scope by building material and site exposure, then schedule the work in a way that respects operating hours, pedestrian flow, and tenant experience."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Office exterior cleaning can include low-pressure cleaning for exterior surfaces, exterior glass cleaning on entry doors and lobby glazing, and targeted detail cleaning around corners, ledges, columns, and entry features where buildup is most noticeable."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://ik.imagekit.io/9ry3lupe5/licensed-adobe-assets/189479952_Cincinnati_Ohio_USA.jpg",
+        "webp": "https://ik.imagekit.io/9ry3lupe5/licensed-adobe-assets/189479952_Cincinnati_Ohio_USA.jpg?tr=f-webp",
+        "alt": "Office exterior cleaning for commercial property",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-office-exterior-cleaning",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Professional Exterior Cleaning",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Commercial properties rarely need \"one-off\" cleaning—they need a plan. Air Tech Solutions provides professional commercial exterior cleaning built for property managers who are responsible for curb appeal, resident/tenant experience, and long-term building upkeep across one building or an entire portfolio."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "We scope your exterior cleaning needs based on what the property is exposed to, what materials you're maintaining, and what access constraints exist on-site. Then we recommend a practical path, whether that means a single project cleaning or a repeating maintenance cadence."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "An exterior cleaning scope may include exterior soft washing, exterior window washing, gutter and downspout clearing, or targeted caulking and sealing at exterior joints and penetrations. This one-partner approach helps property teams reduce vendor stacking, simplify scheduling, and coordinate site access more efficiently."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/home-hero-main.jpg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/home-hero-main.webp",
+        "alt": "Professional exterior cleaning for commercial properties",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "professional-commercial-exterior-cleaning",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Exterior Soft Washing",
       "paragraphs": [
         {
           "has_heading": false,
@@ -755,7 +877,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Dryer Vent Cleaning",
+      "title": "Dryer Vent Cleaning",
       "paragraphs": [
         {
           "has_heading": false,
@@ -816,7 +938,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Bathroom Exhaust Cleaning",
+      "title": "Bathroom Exhaust Cleaning",
       "paragraphs": [
         {
           "has_heading": false,
@@ -877,7 +999,68 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Gutter Cleaning",
+      "title": "Bathroom Exhaust Repair",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "When exhaust systems fail, cleaning alone may not solve the problem. If a bathroom exhaust fan is not operating reliably, or airflow remains poor even after buildup is addressed, repair becomes a maintenance priority. Air Tech Solutions provides commercial bathroom exhaust repair to help property managers restore functional ventilation, reduce recurring complaints, and support moisture control."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Common indicators include fans that are noisy or intermittent, bathrooms that stay damp for long periods, persistent odors, or weak airflow at grilles. In multi-unit environments, a single failing component can indicate a broader pattern across the building, so it is important to evaluate consistently."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Repair work may involve restoring secure connections, addressing fan performance issues, or replacing components that are no longer working as intended, depending on what is accessible and approved. We coordinate access planning with property managers and maintenance teams to reduce disruption."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/cleaning-clogged-sink-drain.jpeg",
+        "webp": "https://licensed-adobe-assets.s3.us-west-2.amazonaws.com/adobe-stock-images/cleaning-clogged-sink-drain.webp",
+        "alt": "Bathroom exhaust repair service",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Services"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "commercial-bathroom-exhaust-repair",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Gutter Cleaning",
       "paragraphs": [
         {
           "has_heading": false,
@@ -938,7 +1121,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial HVAC Cleaning",
+      "title": "HVAC Cleaning",
       "paragraphs": [
         {
           "has_heading": false,
@@ -1000,7 +1183,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Air Quality Testing",
+      "title": "Air Quality Testing",
       "paragraphs": [
         {
           "has_heading": false,
@@ -1062,7 +1245,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Caulking Services",
+      "title": "Caulking Services",
       "paragraphs": [
         {
           "has_heading": false,
@@ -1123,7 +1306,7 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Commercial Sealing Services",
+      "title": "Sealing Services",
       "paragraphs": [
         {
           "has_heading": false,
